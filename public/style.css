@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+}
+.App .btn-content {
+  margin-top: 10px;
+}
+.btn-mostrar {
+  width: 300px;
+  height: 50px;
+  border: 0 solid;
+  background-color: #008800;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+.form-cliente,
+.form-produto {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 400px; */
+  align-items: center;
+  justify-content: center;
+}
+.form-cliente input,
+.form-produto input {
+  height: 30px;
+  font-size: 1.2rem;
+  padding: 2px 5px;
+}
+.App .produtos-container ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  background-color: hotpink;
+  width: 100px;
+  height: auto;
+}
+.App .produtos-container ul li {
+  margin-left: 10px;
+}
